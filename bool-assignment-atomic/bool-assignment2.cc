@@ -8,7 +8,7 @@ bool b = false;
 
 void writer() {
   while (true) {
-    this_thread::sleep_for(chrono::milliseconds(rand() % 10));
+    this_thread::sleep_for(chrono::milliseconds(rand() % 100));
     b = true;
   }
 }
@@ -19,7 +19,7 @@ void reader() {
     if (b) {
       b = false;
       auto now = chrono::high_resolution_clock::now();
-      assert(now - last_received <= chrono::milliseconds(20));
+      assert(now - last_received <= chrono::milliseconds(200));
       last_received = now;
     }
   }
