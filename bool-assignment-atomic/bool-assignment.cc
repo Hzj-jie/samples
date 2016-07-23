@@ -1,6 +1,7 @@
 
 #include <cstdlib>
 #include <thread>
+#include <vector>
 using namespace std;
 
 bool b = false;
@@ -12,6 +13,9 @@ void exec() {
 }
 
 int main() {
-  thread t(&exec);
+  vector<thread> threads;
+  for (int i = 0; i < 10; i++) {
+    threads.emplace_back(&exec);
+  }
   exec();
 }
