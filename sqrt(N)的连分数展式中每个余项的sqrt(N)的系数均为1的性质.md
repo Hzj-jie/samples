@@ -5,11 +5,11 @@ sqrt(N)的连分数展式中每个余项的sqrt(N)的系数均为1的性质
 这个问题的证明可以保证对于sqrt(N)的连分数运算可以安全的将每个余项都化为(sqrt(N) - Bx) / Cx的形式。
 用于http://projecteuler.net/problem=64。
 
-https://raw.githubusercontent.com/Hzj-jie/samples/master/sqrt(N)%E7%9A%84%E8%BF%9E%E5%88%86%E6%95%B0%E5%B1%95%E5%BC%8F%E4%B8%AD%E6%AF%8F%E4%B8%AA%E4%BD%99%E9%A1%B9%E7%9A%84sqrt(N)%E7%9A%84%E7%B3%BB%E6%95%B0%E5%9D%87%E4%B8%BA1%E7%9A%84%E6%80%A7%E8%B4%A8/WP_20140519_002.jpg
+!(alt text)[https://raw.githubusercontent.com/Hzj-jie/samples/master/sqrt(N)%E7%9A%84%E8%BF%9E%E5%88%86%E6%95%B0%E5%B1%95%E5%BC%8F%E4%B8%AD%E6%AF%8F%E4%B8%AA%E4%BD%99%E9%A1%B9%E7%9A%84sqrt(N)%E7%9A%84%E7%B3%BB%E6%95%B0%E5%9D%87%E4%B8%BA1%E7%9A%84%E6%80%A7%E8%B4%A8/WP_20140519_002.jpg "First page"]
 
 其中第三步
 
-https://raw.githubusercontent.com/Hzj-jie/samples/master/sqrt(N)%E7%9A%84%E8%BF%9E%E5%88%86%E6%95%B0%E5%B1%95%E5%BC%8F%E4%B8%AD%E6%AF%8F%E4%B8%AA%E4%BD%99%E9%A1%B9%E7%9A%84sqrt(N)%E7%9A%84%E7%B3%BB%E6%95%B0%E5%9D%87%E4%B8%BA1%E7%9A%84%E6%80%A7%E8%B4%A8/WP_20140519_004.jpg
+!(alt text)[https://raw.githubusercontent.com/Hzj-jie/samples/master/sqrt(N)%E7%9A%84%E8%BF%9E%E5%88%86%E6%95%B0%E5%B1%95%E5%BC%8F%E4%B8%AD%E6%AF%8F%E4%B8%AA%E4%BD%99%E9%A1%B9%E7%9A%84sqrt(N)%E7%9A%84%E7%B3%BB%E6%95%B0%E5%9D%87%E4%B8%BA1%E7%9A%84%E6%80%A7%E8%B4%A8/WP_20140519_004.jpg "Second page"]
 
 另附带projecteuler 64题的代码
 
